@@ -1,1 +1,33 @@
-/* место для вашего кода */
+body {
+  background-color: #fff;
+  color: #000;
+  line-height: 120%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50px;
+  gap: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 0.5px solid #000;
+  background-color: #fff;
+}
+
+.menu__underline {
+}
