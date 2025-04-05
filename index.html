@@ -11,35 +11,43 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#">главная</a></li>
-          <span class="dot"></span>
-          <li><a class="menu__underline" href="#">посмотреть лоты</a></li>
-          <span class="dot"></span>
-          <li><a class="menu__underline" href="#">об аукционе</a></li>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="link--no-marker">
+            <a href="#" class="link--no-underline">главная</a>
+          </li>
+          <li class="link--underline">
+            <a href="#">посмотреть лоты</a>
+          </li>
+          <li class="link--underline">
+            <a href="#">об аукционе</a>
+          </li>
         </ul>
       </nav>
-      <img
-        src="/images/logo-black.svg"
-        alt="Логотип Оно тебе надо"
-        width="148"
-        height="105"
-      />
-      <address>
-        <p><a href="tel:+99995555555">+9 999 555 5555</a></p>
-        <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
-        <p>наб. Принсенграхт 263-265, Амстердам</p>
+      <a class="logo">
+        <img src="/images/logo-black.svg" alt="Логотип Оно тебе надо" />
+      </a>
+      <address class="address">
+        <a href="tel:+99995555555" class="link--underline" class
+          >+9 999 555 5555</a
+        >
+
+        <a href="mailto:info@sobaka.ge" class="link--underline"
+          >info@sobaka.ge</a
+        >
+
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <h1 class="headline-text">
-          <div>оно</div>
-          <div>тебе</div>
-          <div>надо</div>
+        <div class="cover__overlay"></div>
+        <h1 class="cover__title">
+          <span class="cover__word cover__word--left">Оно</span>
+          <span class="cover__word cover__word--center">тебе</span>
+          <span class="cover__word cover__word--right">надо</span>
         </h1>
-        <div class="description">
+        <div class="cover__description">
           <p>Аукцион вещей, вкоторые никто не верил</p>
           <button>Сделать ставку</button>
         </div>
