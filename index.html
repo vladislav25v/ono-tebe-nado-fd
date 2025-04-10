@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="link--no-marker">
@@ -28,14 +28,10 @@
         <img src="/images/logo-black.svg" alt="Логотип Оно тебе надо" />
       </a>
       <address class="address">
-        <a href="tel:+99995555555" class="link--underline" class
-          >+9 999 555 5555</a
-        >
-
+        <a href="tel:+99995555555" class="link--underline">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge" class="link--underline"
           >info@sobaka.ge</a
         >
-
         <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
     </header>
@@ -107,15 +103,15 @@
             </a>
           </li>
         </ul>
-        <button class="lots__look-more-link">
-          <a href="#">посмотреть больше</a>
-        </button>
+        <div>
+          <a href="#" class="lots__look-more-link">посмотреть больше</a>
+        </div>
       </section>
       <section class="about">
-        <div class="logo-column"></div>
-        <div class="about-column">
-          <h2>Об аукционе</h2>
-          <p>
+        <div class="about__logo"></div>
+        <div class="about__column">
+          <h2 class="about__title">Об аукционе</h2>
+          <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
@@ -133,24 +129,53 @@
         </div>
       </section>
     </main>
-    <footer>
-      <address>
-        <p><a href="tel:+99995555555">+9 999 555 5555</a></p>
-        <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
+    <footer class="footer">
+      <address class="address address--footer">
+        <a href="tel:+99995555555" class="link--underline">+9 999 555 5555</a>
+
+        <p>
+          <a href="mailto:info@sobaka.ge" class="link--underline"
+            >info@sobaka.ge</a
+          >
+        </p>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav>
-        <ul>
-          <li><a href="#">главная</a></li>
-          <li><a href="#">посмотреть лоты</a></li>
-          <li><a href="#">об аукционе</a></li>
-        </ul>
-        <ul class="socials">
-          <li><a href="#">youtube</a></li>
-          <li><a href="#">vk</a></li>
-          <li><a href="#">pinterest</a></li>
+        <ul class="link--no-marker footer__menu-list">
+          <li>
+            <a href="#" class="link--no-marker link--no-underline">главная</a>
+          </li>
+          <li>
+            <a href="#" class="link--underline">посмотреть лоты</a>
+          </li>
+          <li>
+            <a href="#" class="link--underline">об аукционе</a>
+          </li>
         </ul>
       </nav>
+      <ul class="footer__social-list link--no-marker">
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            class="footer__social-icon footer__social-icon-youtube"
+            ><span class="visually-hidden">youtube</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://vk.com/"
+            class="footer__social-icon footer__social-icon-vk"
+            ><span class="visually-hidden">vk</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.pinterest.com/"
+            class="footer__social-icon footer__social-icon-pinterest"
+            ><span class="visually-hidden">pinterest</span></a
+          >
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
