@@ -194,6 +194,7 @@ body {
 
 .card_type_film {
   position: relative;
+  background-color: #080;
   background-image: url(/images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
@@ -202,6 +203,7 @@ body {
 
 .card_type_book {
   position: relative;
+  background-color: #900;
   background-image: url(/images/card-lot-02.jpg);
   background-size: cover;
   background-position: center;
@@ -210,6 +212,7 @@ body {
 
 .card_type_picture {
   position: relative;
+  background-color: #ff0;
   background-image: url(/images/card-lot-03.jpg);
   background-size: cover;
   background-position: center;
