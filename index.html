@@ -7,20 +7,21 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/util.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="list_bare">
-            <a href="#0" class="text_plain">главная</a>
+          <li class="links-list-item_no-bullit">
+            <a href="#0" class="link_active_no-decaration">главная</a>
           </li>
           <li>
-            <a href="#0">посмотреть лоты</a>
+            <a href="#0" class="link_active_underlined">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#0">об аукционе</a>
+            <a href="#0" class="link_active_underlined">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -28,8 +29,10 @@
         <img src="./images/logo-black.svg" alt="Логотип Оно тебе надо" />
       </a>
       <address class="address">
-        <a href="tel:+99995555555" class="link_underlined">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="link_underlined"
+        <a href="tel:+99995555555" class="link_active_underlined"
+          >+9 999 555 5555</a
+        >
+        <a href="mailto:info@sobaka.ge" class="link_active_underlined"
           >info@sobaka.ge</a
         >
         <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
@@ -39,9 +42,9 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="cover__word cover__word--left">Оно</span>
-          <span class="cover__word cover__word--center">тебе</span>
-          <span class="cover__word cover__word--right">надо</span>
+          <span class="cover__word aligned-text_left">Оно</span>
+          <span class="cover__word aligned-text_center">тебе</span>
+          <span class="cover__word aligned-text_right">надо</span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
@@ -132,26 +135,28 @@
     </main>
     <footer class="footer">
       <address class="address address_footer">
-        <a href="tel:+99995555555" class="link_underlined">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="link_underlined"
+        <a href="tel:+99995555555" class="link_active_underlined"
+          >+9 999 555 5555</a
+        >
+        <a href="mailto:info@sobaka.ge" class="link_active_underlined"
           >info@sobaka.ge</a
         >
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav>
-        <ul class="footer__menu-list list_bare">
+        <ul class="footer__menu-list links-list-item_no-bullit">
           <li>
-            <a href="#0" class="text_plain">главная</a>
+            <a href="#0" class="link_active_no-decaration">главная</a>
           </li>
           <li>
-            <a href="#0" class="link_underlined">посмотреть лоты</a>
+            <a href="#0" class="link_active_underlined">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#0" class="link_underlined">об аукционе</a>
+            <a href="#0" class="link_active_underlined">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <ul class="footer__social-list list_bare">
+      <ul class="footer__social-list links-list-item_no-bullit">
         <li>
           <a
             href="https://www.youtube.com/"
